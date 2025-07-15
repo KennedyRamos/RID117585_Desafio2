@@ -1,10 +1,12 @@
+/* TODO: editar o blur da sombra */
+
 @import '../variables.css';
 
 .recents{
     margin: 1rem 0;
 }
 
-.recents__title{
+.recents__header{
     background-color: var(--primary-color);
     padding: 1rem;
     border-radius: 10px;
