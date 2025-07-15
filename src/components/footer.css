@@ -1,0 +1,8 @@
+@import '../variables.css';
+
+.footer__title{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: #fff;
+}
