@@ -1,0 +1,32 @@
+@import '../variables.css';
+
+.recents{
+    margin: 1rem 0;
+}
+
+.recents__title{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.recents__card{
+    border-radius: 10px;
+    box-shadow: 0 0 .2rem #000;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.recents__card-text{
+    padding: .5rem 1rem;
+    display: grid;
+    gap: .5rem;
+}
+
+.card-category{
+    color: var(--primary-color);
+}
+.text-gray{
+    color: #616161;
+}
