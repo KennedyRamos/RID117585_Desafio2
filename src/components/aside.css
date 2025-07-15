@@ -1,0 +1,29 @@
+@import '../variables.css';
+
+.popular__title{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.popular__card{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    gap: .5rem;
+    box-shadow: 0 0 1rem #000;
+    margin: 1rem 0;
+}
+
+.popular__card-image{
+    border-radius: 10px;
+    width: 40%;   
+}
+
+.popular__card-text{
+    font-size: .8rem;
+}
