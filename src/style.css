@@ -15,7 +15,7 @@
     font-weight: 400;
 }
 
-.container{
+.main-content, .sidebar{
     margin: 1rem .5rem;
 }
 
@@ -27,4 +27,15 @@ img{
 
 .text-gray{
     color: #616161;
+}
+
+@media (min-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-content{
+        grid-column: 1/3;
+    }
 }
