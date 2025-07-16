@@ -15,7 +15,7 @@
 
 .recents__card{
     border-radius: 10px;
-    box-shadow: 0 0 .2rem #000;
+    box-shadow: 0 0 1rem 1rem #00000010;;
     overflow: hidden;
     margin: 1rem 0;
 }
@@ -28,7 +28,4 @@
 
 .card-category{
     color: var(--primary-color);
-}
-.text-gray{
-    color: #616161;
 }
