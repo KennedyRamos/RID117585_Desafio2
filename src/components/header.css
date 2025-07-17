@@ -5,6 +5,7 @@
     text-align: center;
     background-color: var(--primary-color);
     padding: 1rem;
+    color: #fff;
 }
 
 @media (min-width: 768px){
