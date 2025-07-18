@@ -11,6 +11,15 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
+.section-title{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: .8rem;
+}
+
 .normal-font{
     font-weight: 400;
 }
