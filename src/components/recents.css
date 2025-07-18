@@ -1,11 +1,10 @@
-
 @import '../variables.css';
 
-.recents{
+.recents {
     margin: 1rem 0;
 }
 
-.recents__header{
+.recents__header {
     background-color: var(--primary-color);
     padding: 1rem;
     color: #fff;
@@ -14,34 +13,41 @@
     align-items: center;
 }
 
-.recents__header > a{
+.recents__header>a {
     color: #fff;
 }
 
-.recents__card{
+.recents__card {
     overflow: hidden;
     margin: 1rem 0;
 }
 
-.recents__card-text{
+.recents__card-text {
     padding: .5rem 1rem;
     display: grid;
     gap: .5rem;
 }
 
-.card-category{
+.card-category {
     color: var(--primary-color);
 }
 
-@media (min-width: 768px){
-    .recents{
+@media (min-width: 768px) {
+    .recents {
         display: grid;
         gap: 0 1rem;
+        margin: 1.5rem 0;
     }
 
 
-    .recents__header{
+    .recents__header {
         grid-column: 1/3;
     }
 
+}
+
+@media (min-width: 2560px) {
+    .recents__card-text {
+        font-size: 1.5rem;
+    }
 }

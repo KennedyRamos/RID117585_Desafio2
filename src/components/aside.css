@@ -1,13 +1,5 @@
 @import '../variables.css';
 
-.aside__section-title{
-    background-color: var(--primary-color);
-    padding: 1rem;
-    color: #fff;
-    text-align: center;
-    font-size: 1.2rem;
-}
-
 .popular__card{
     display: flex;
     border-radius: 10px;
