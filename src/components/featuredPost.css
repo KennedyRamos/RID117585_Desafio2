@@ -24,6 +24,38 @@
     padding: 1rem;
 }
 
-@media (min-width: 768px){
+.featuredPost__text-headline{
+    font-size: 1.5rem;
+}
 
+.featuredPost__text-by{
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px){
+    .featuredPost__text-headline{
+        font-size: 1.7rem;
+    }
+    .featuredPost{
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1024px){
+    .featuredPost__text-headline{
+        font-size: 2rem;
+    }
+
+    .featuredPost{
+        height: 65vh;
+    }
+}
+
+@media (min-width: 1440px){
+    .featuredPost__text-headline{
+        font-size: 2.5rem;
+    }
+    .featuredPost{
+        height: 60vh;
+    }
 }
