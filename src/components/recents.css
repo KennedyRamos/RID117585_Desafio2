@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .recents {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .recents__header {
@@ -19,7 +19,7 @@
 
 .recents__card {
     overflow: hidden;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .recents__card-text {
