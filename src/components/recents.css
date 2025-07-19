@@ -35,7 +35,7 @@
 @media (min-width: 768px) {
     .recents {
         display: grid;
-        gap: 0 1rem;
+        gap: .5rem 1.5rem;
         margin: 1.5rem 0;
     }
 
@@ -47,6 +47,10 @@
 }
 
 @media (min-width: 2560px) {
+    .recents {
+        gap: 1rem 2rem;
+    }
+    
     .recents__card-text {
         font-size: 1.5rem;
     }
