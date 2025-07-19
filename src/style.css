@@ -1,3 +1,7 @@
+/* esse é o css pricipal, onde tem os estilos globais */
+
+
+/* importando o css dos components */
 @import 'components/header.css';
 @import 'components/featuredPost.css';
 @import 'components/aside.css';
@@ -11,14 +15,22 @@
     font-family: "Montserrat", sans-serif;
 }
 
-img {
-    object-fit: cover;
-    width: 100%;
-}
-
 .main-content,
 .sidebar {
     margin: 1.5rem .5rem;
+}
+
+.shadow {
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
 }
 
 .section-title {
@@ -29,13 +41,10 @@ img {
     font-size: .8rem;
 }
 
-.shadow {
-    box-shadow: 10px 0 20px 1px rgba(0, 0, 0, 0.1);
+.card-category {
+    color: var(--primary-color);
 }
 
-.radius {
-    border-radius: 10px;
-}
 
 .normal-font {
     font-weight: 400;
@@ -45,6 +54,8 @@ img {
     color: var(--secondary-color);
 }
 
+
+/* media das telas maiores */
 @media (min-width: 768px) {
     .container {
         display: grid;
@@ -61,6 +72,7 @@ img {
         font-size: .7rem;
     }
 }
+
 
 @media (min-width: 1024px) {
     .container {

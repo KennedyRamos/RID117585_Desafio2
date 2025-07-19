@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.recents__header>a {
+.recents__header > a {
     color: #fff;
 }
 
@@ -28,10 +28,7 @@
     gap: .5rem;
 }
 
-.card-category {
-    color: var(--primary-color);
-}
-
+/* media das telas maiores */
 @media (min-width: 768px) {
     .recents {
         display: grid;

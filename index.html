@@ -16,12 +16,19 @@
     <title>Blog Responsivo</title>
   </head>
   <body>
+
+    <!-- cabeçalho da página -->
     <header class="header standard">
       <h1 class="header__title">The Dev News</h1>
     </header>
 
+    <!-- container onde tem o main e o aside -->
     <div class="container">
+      
+      <!-- conteúdo pricipal  -->
       <main class="main-content">
+        
+        <!-- essa é a seção em que uma matéria pricipal é exibida em destaque -->
         <section class="featuredPost radius">
           <img
             src="assets/city.svg"
@@ -29,25 +36,36 @@
             class="featuredPost__background"
           />
 
+          <!-- degrade preto -->
           <div class="featuredPost__mask"></div>
 
           <div class="featuredPost__text">
-            <h4 class="normal-font featuredPost__text-category">Opinião</h4>
+            <h4 class="normal-font featuredPost__text-category">
+              Opinião
+            </h4>
+            
             <h3 class="featuredPost__text-headline">
               Como é ser um desenvolvedor
             </h3>
+            
             <h5 class="featuredPost__text-by">
               By <span class="normal-font">Fabio Tetsuo</span>
             </h5>
           </div>
         </section>
 
+
+        <!-- seção com posts recentes -->
         <section class="recents">
+          
+          <!-- cabeçalho com título da seção -->
           <div class="recents__header radius section-title">
             <h2>Posts mais recentes</h2>
             <a href="#">Ver mais</a>
           </div>
 
+
+          <!-- artigos -->
           <article class="recents__card shadow radius">
             <img src="assets/mobile.svg" alt="imagem de um smartphone" />
             <div class="recents__card-text">
@@ -116,7 +134,11 @@
           </article>
         </section>
       </main>
+      
+      <!-- sidebar -->
       <aside class="sidebar">
+        
+        <!-- seção popular  -->
         <section class="popular">
           <div class="section-title radius" >
               <h2>Posts populares</h2>
@@ -159,6 +181,7 @@
           </article>
         </section>
 
+        <!-- seção categorias -->
         <section class="category">
           <div class="section-title radius">
               <h2>Kategori</h2>
@@ -187,6 +210,8 @@
         </section>
       </aside>
     </div>
+
+    <!-- rodapé -->
     <footer class="footer">
       <p class="footer__title">Copyright@The Dev News</p>
     </footer>

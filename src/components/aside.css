@@ -1,5 +1,6 @@
 @import '../variables.css';
 
+/* css da seção popular */
 .popular__card{
     display: flex;
     border-radius: 10px;
@@ -17,6 +18,8 @@
     font-size: .8rem;
 }
 
+
+/* css da seção category */
 .category__list{
     margin: 1rem 0;
     display: grid;
@@ -33,6 +36,7 @@
     font-weight: 400;
 }
 
+/* media das telas maiores */
 @media (min-width: 768px){
     .popular__card{
         margin: 1.1rem 0;
